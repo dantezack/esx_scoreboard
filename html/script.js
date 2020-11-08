@@ -62,7 +62,7 @@ $(function() {
 	});
 
 	document.onkeyup = function(event) {
-		if (event.key == 'F9') {
+		if (event.key == 'F11') {
 			$('#wrap').fadeOut();
 			$.post('http://esx_scoreboard/onCloseMenu');
 		}
